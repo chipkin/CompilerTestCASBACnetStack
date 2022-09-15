@@ -6,7 +6,7 @@
 NAME := CASBACnetStackCompileTest
 CXX := g++
 
-CFLAGS += -g -O2 -Wall -W -pedantic
+CFLAGS += -g -O2 -pedantic -Werror -Wnon-virtual-dtor
 CXXFLAGS=$(CFLAGS) -std=c++11
 CFLAGS += 
 LDFLAGS += -lstdc++

@@ -271,6 +271,7 @@ bool test_std_reverse() {
 class Shape {
 public: 
     virtual uint8_t GetCornerCount() = 0;
+    virtual ~Shape() {}
 };
 
 class Square : public Shape {
